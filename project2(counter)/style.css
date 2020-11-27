@@ -1,0 +1,39 @@
+:root{
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    text-align: center;
+    ;
+}
+button{
+   border:2px solid black;
+   background: transparent;
+   cursor: pointer;
+   margin: 0.5rem;
+   display: inline-block;
+   padding: 0.5rem 0.8rem;
+   text-transform: capitalize;
+}
+.value{
+    font-size: 6rem;
+    font-weight: bold;
+}
+h1, p, span{
+    text-transform: capitalize;
+    
+}
+.underline{
+    text-decoration:underline;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: green;
+    transition: ease-in-out 0.5s;
+
+}
